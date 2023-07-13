@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="app-title">Quiz web App</h1>
+
+    <!-- ------------------------quiz section -------------------- -->
+
+    <section class="quiz-section">
+        <!-- ----------------------------------- quiz question section ------------------------------------- -->
+
+        <div class="quiz-container quiz-question">
+            <div>Quiz App</div>
+            <div class="quiz-box">
+                <h4 class="question"></h4>
+                <div>
+                    <input id="quiz-input" type="text" placeholder="Answer"><br>
+                    <button id="quiz-submit">Submit</button>
+                </div>
+            </div>
+            <div class="quiz-status"></div>
+        </div>
+
+        <!-- ------------------------------quiz score section ----------------------------- -->
+
+        <div class="quiz-container quiz-score">
+            <div>Quiz App</div>
+            <div class="quiz-box">
+                <h3 class="score-box-heading">Score</h3>
+                <div>
+                    <div class="right">Total Right question: 0</div>
+                    <br>
+                    <div class="wrong">Total Wrong Question: 0</div>
+                    <div class="quiz-result">Final Result : 0</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>
